@@ -1,6 +1,6 @@
 {
-  "name": "khmer-utils",
-  "version": "1.0.0",
+  "name": "khts-local",
+  "version": "1.0.1",
   "description": "A comprehensive utility package for Khmer language conversions and formatting.",
   "type": "module",
   "main": "./dist/index.js",

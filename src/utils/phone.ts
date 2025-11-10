@@ -38,7 +38,7 @@ export function formatKhmerPhone(phoneNumber: string): string {
         const prefix = cleanNum.substring(0, 3);
         const middle = cleanNum.substring(3, 6);
         const suffix = cleanNum.substring(6, 10);
-        return `${prefix}-${middle}-${suffix}`;
+        return `${prefix} ${middle} ${suffix}`;
     }
 
     // Example logic for 9-digit number (e.g., 097345678) -> 097-345-678

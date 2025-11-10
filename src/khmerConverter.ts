@@ -1,4 +1,4 @@
-import { englishToKhmerNumber } from './utils/numberic.js';
+import { englishToKhmerNumber } from './utils/number.js';
 import { formatKhmerPhone } from './utils/phone.js'; // Assume this file exists
 
 /**
