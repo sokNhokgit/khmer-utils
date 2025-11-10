@@ -1,0 +1,33 @@
+# 1. Dependency Directories
+/node_modules
+
+# 2. Build and Distribution (Output) Directory
+# This is where your compiled JavaScript and type definitions go.
+# As defined in your tsconfig.json: "outDir": "./dist"
+/dist
+
+# 3. Editor/IDE Specific Files
+# Ignore files created by common editors and IDEs (like VS Code, Sublime)
+.vscode/
+*.sublime-*
+.idea/
+
+# 4. Logs and Debugging
+npm-debug.log
+yarn-error.log
+*.log
+
+# 5. OS and System Files
+# Files created by macOS and Windows
+.DS_Store
+Thumbs.db
+
+# 6. NPM / Yarn Caches & Lock Files (Optional, but good practice)
+# While usually not strictly needed, sometimes useful if your project
+# is part of a monorepo or has specific CI setup.
+npm-cache/
+.npm
+/tmp
+
+# 7. Coverage Reports (If you add testing later)
+/coverage
